@@ -74,6 +74,10 @@ public abstract class Carte {
         return autor;
     }
 
+    public String getSectiune() {
+        return sectiune;
+    }
+
     public String getTitlu() {
         return titlu;
     }
@@ -102,7 +106,15 @@ public abstract class Carte {
             return false;
         }
         final Carte other = (Carte)other1;
+        /*System.out.println(this.titlu);
+        System.out.println(this.autor);
+        System.out.println(this.sectiune);
+        System.out.println(other.titlu);
+        System.out.println(other.autor);
+        System.out.println(other.sectiune);
+         */
         return (this.titlu.equals(other.titlu) && this.autor.equals(other.autor) && this.sectiune.equals(other.sectiune));
+        //return true;
     }
 
     @Override

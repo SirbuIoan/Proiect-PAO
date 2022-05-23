@@ -25,4 +25,11 @@ public class CarteFactory extends AbstractFactory{
 
         return null;
     }
+
+    //un demo
+    /*public static void main(String[] args) {
+        CarteFactory demo = new CarteFactory();
+        Carte test = demo.getCarte("manga");
+        System.out.println(test.getType());
+    }*/
 }

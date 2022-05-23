@@ -17,6 +17,7 @@ public final class Autor extends Person implements Comparable<Autor> {
         }
         final Autor other = (Autor)other1;
         return this.getNume().equals(other.getNume()) && this.getPrenume().equals(other.getPrenume()) ;
+        //return true;
     }
 
     @Override
